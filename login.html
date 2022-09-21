@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn</title>
+    <style>
+      #gparent {
+        /* border: 5px solid seagreen; */
+        width: 100%;
+        height: 619px;
+        /* margin-top: 2.5%; */
+        display: flex;
+        background-color: #0093e9;
+        background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+      }
+      #parent {
+        /* border: 1px solid rgb(0, 0, 0); */
+        border-radius: 2%;
+        width: 30%;
+        height: 520px;
+        margin: auto;
+        display: flex;
+        background-color: white;
+      }
+      form {
+        margin: 0 auto;
+        margin-top: 0px;
+        width: 95%;
+        box-shadow: rgba(191, 202, 212, 0.719) 0px 8px 24px;
+        padding: 30px;
+      }
+      label {
+        font-size: 22px;
+      }
+      form > input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type="submit"] {
+        background-color: #0093e9;
+        background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-size: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gparent">
+      <div id="parent">
+        <form action="">
+          <h1>Login</h1>
+          <label>Email</label><br />
+          <input id="mail" type="email" placeholder="Enter Email" /><br />
+          <label>Password</label><br />
+          <input id="pass" type="password" placeholder="Enter Password" /><br />
+          <input type="submit" value="Login" />
+          <h4>
+            Forgot
+            <a href="">Password?</a>
+          </h4>
+          <h4>
+            Don't have an account?
+            <a href="">Sign up</a>
+          </h4>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
